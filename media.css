@@ -1,0 +1,60 @@
+@media screen and (max-width:991px){
+   
+    .hamberger{
+        display: block;
+        
+    }
+   
+    .div-text-sec2{
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+       padding-block: 2rem;
+       text-align: right;
+       
+    }
+    .nav-links{
+        display: none;
+     }
+    .div-text h3{
+        top:7rem
+    }
+}
+@media  screen and (max-width:734px) {
+    
+   .container{
+    flex-wrap: wrap;
+   
+   }
+   .div-text{
+    text-wrap: nowrap;
+   }
+   .div-video{
+    width: 100%;
+   }   
+   .div-video video{
+    width: 110%;
+   }
+    .blue{
+        font-size: 3em;
+    }
+    .white {
+        
+        font-size: 2rem;
+    }
+    @media screen and (max-width:520px) {
+        .blue{
+            font-size: 2em;
+        }
+    .container{
+        padding-inline: 2rem;
+    }
+        .white {
+            
+            font-size: 1.4rem;
+        }
+        .nav-bar{
+            padding-inline: 1rem;
+        }
+    }
+}
